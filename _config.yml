@@ -1,5 +1,12 @@
+title: My Math Notes
+description: On this page, I plan to share my understanding of the various mathematical topics I have learned throughout my academic journey. (07/11/2025)
 theme: jekyll-theme-minimal
 markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
+
+# hide the GitHub box
+show_downloads: false
+github:
+  is_project_page: false
