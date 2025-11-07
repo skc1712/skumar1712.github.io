@@ -3,9 +3,10 @@ layout: default
 title: Inicio
 ---
 
-# Apuntes
+# Content
 
-- [BSE](/BSE/)
-- [VFE](/VFE/)
-- [LLG](/LLG/)
-- [EDP](temas/edp.md)   <!-- o con permalink: /edp/ -->
+- [Black--Scholes equation](/BSE/)
+- [Vortex Filament equation](/VFE/)
+- [Landau--Lifschitz--Gilbert equation](/LLG/)
+- [Self similarity](/Selfsimilarity/)
+ 
