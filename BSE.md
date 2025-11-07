@@ -5,4 +5,8 @@ permalink: /BSE/
 ---
 
 # Black--Scholes equation
-Contenido…
+
+The function $V(S,t)$ solves the following equation
+$$
+\frac{\partial V}{\partial t} = 0.
+$$
