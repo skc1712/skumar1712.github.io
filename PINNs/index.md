@@ -6,5 +6,6 @@ permalink: /PINNs/
 
 ## Physics Informed Neural Networks 
 
+- [Introduction](intro.md)
 - [Vanishing gradient](vanishingG.md)
 - [Spectral bias](spectralB.md)
