@@ -16,6 +16,22 @@ $$
 
 where $k$ is a scaling exponent. Here are some intuitive real-world examples, some of which I am sure all of us have seen somewhere. 
 
-This is a typical definition of a homogeneous function of degree $k$ that we learn in Calculus. 
+This is a standard definition of a homogeneous function of degree $k$ that we learn in Calculus. A simple example is that of a pyramid shape 
+
+$
+f(x,y) = (|x|+|y|)
+$
+
+The function is homogeneous of degree 1, and the level sets are given by
+
+$|x|+|y|=c$.
+
+and 
+
+$
+|2x|+|2y|=c \implies |x|+|y|=c/2$ 
+
+This means that if you look at the pyramid from the top (along the $z$-axis) and zoom in by twice, you will see the same square shape with half the side-length.  
+
 
 # Self-similarity of equations
