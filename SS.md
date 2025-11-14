@@ -30,5 +30,11 @@ $|2x|+|2y|=c \implies |x|+|y|=c/2.$
 
 This means that if you view the pyramid from above (looking down the $z$-axis) and zoom in by a factor of 2, you will see the same square shape with half the side length. Moreover, this remains true for any zooming factor: no matter how much you zoom in or out, the level sets keep the same shape, differing only by scale.
 
+Another interesting and closed-form example is the logarithmic spiral, which has exact geometric self-similarity. In the polar form, it can be expressed as
+
+$$r(\theta)=r_0 e^{b\theta}$$.
+
+
+
 
 # Self-similarity of equations
