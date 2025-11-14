@@ -10,17 +10,13 @@ When I think of self-similarity, the first thing that comes to my mind is Romane
 # Self-similarity of shapes/functions
 Formally, a function $f(x)$ or a set $S$ is self-similar if scaling the input by a factor $\lambda$ changes the output in a predictable, proportional way:
 
-$$
-f(\lambda x) = \lambda^k f(x),
-$$
+$f(\lambda x) = \lambda^k f(x),$
 
 where $k$ is a scaling exponent. Here are some intuitive real-world examples, some of which I am sure all of us have seen somewhere. 
 
 This is a standard definition of a homogeneous function of degree $k$ that we learn in Calculus. A simple example of a self-similar shape is the pyramid given by the function 
 
-$
-f(x,y) = (|x|+|y|)
-$
+$f(x,y) = (|x|+|y|)$
 
 The function is homogeneous of degree 1, with the level sets given by
 
@@ -30,8 +26,7 @@ which are diamonds (squares rotated by 45 °).
 
 Now, if we scale the variables by a factor of 2:
 
-$
-|2x|+|2y|=c \implies |x|+|y|=c/2$ 
+$|2x|+|2y|=c \implies |x|+|y|=c/2$ 
 
 This means that if you view the pyramid from above (looking down the $z$-axis) and zoom in by a factor of 2, you will see the same square shape with half the side length.  
 
