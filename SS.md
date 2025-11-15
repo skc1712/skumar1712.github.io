@@ -81,8 +81,9 @@ $$
 $$
 .
 
-Special case: Golden spiral. 
+This means zooming the entire curve is equivalent to rotating it; the shape remains the same, but not the size. 
 
+ 
 Images of Galaxy and cyclones. 
 
 
