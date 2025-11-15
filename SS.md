@@ -58,7 +58,14 @@ $$
 $$
 ,
 
-where $\Delta \theta = \frac{\ln \lambda}{b}$. 
+where $\Delta \theta = \frac{\ln \lambda}{b}$. And if we write in the Cartesian coordinates $x=r\cos(\theta), y = r\sin(\theta)$, then
+
+$$
+z = x+iy = r e^{i\theta} = r_0 e^{(i+b) \theta} 
+$$
+.
+
+It turns out that when $\Delta \theta = \frac{\pi}{2}$, and $\lambda = \frac{1+\sqrt{5}}{2}$, the Golden ratio, then the corresponding spiral is  called the  Golden spiral. Hooreyyy!!! 
 
 Special case: Golden spiral. 
 
