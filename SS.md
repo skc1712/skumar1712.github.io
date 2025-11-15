@@ -49,12 +49,14 @@ So if we scale or zoom the spiral by a factor $\lambda$, i.e.,
 $$
 r\rightarrow \lambda r
 $$
+,
 
 then 
 
 $$
 \lambda r(\theta) = r_0 e^{(b+i) (\theta+\Delta \theta)} 
 $$
+,
 
 where $\Delta \theta = \frac{\ln \lambda}{b}$. 
 
