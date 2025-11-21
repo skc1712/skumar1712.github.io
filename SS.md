@@ -89,7 +89,7 @@ This means zooming the entire curve is equivalent to rotating it; the shape rema
 
 ![Level curves of pyramid](assets/images/pyramid2d.png)
 
-![spiral zoom](assets/images/spiralzoom.png)
+![spiral zoom](assets/images/spiralzoom.gif)
  
 Images of Galaxy and cyclones. 
 
