@@ -93,11 +93,15 @@ $$
 
 This means zooming the entire curve is equivalent to rotating it; the shape remains the same, but not the size. 
 
-
-![spiral zoom](assets/images/spiralzoom.gif)
-
-![Spiral Galaxy NGC 3147](assets/images/galaxynasa.jpg) 
+<div style="display: flex; gap: 15px;">
+  <img src="../assets/images/spiralzoom.gif" width="300">
+  <img src="../assets/images/galaxynasa.jpg" width="300">
+</div>
 *Image credit: www.nasa.gov (Public Domain).*
+
+<!-- ![spiral zoom](assets/images/spiralzoom.gif)
+![Spiral Galaxy NGC 3147](assets/images/galaxynasa.jpg) -->
+
 
 
 # Self-similarity of equations
