@@ -43,6 +43,11 @@ This means that if you view the pyramid from above (looking down the $z$-axis) a
 
 ![Level curves of pyramid](assets/images/pyramid2d.png)
 
+<div style="display: flex; gap: 15px;">
+  <img src="../assets/images/pyramid3d.png" width="300">
+  <img src="../assets/images/pyramid2d.png" width="300">
+</div>
+
 So the self-similarity in this example can be expressed by
 
 $$
