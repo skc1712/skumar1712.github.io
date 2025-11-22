@@ -54,12 +54,15 @@ This means that if you view the pyramid from above (looking down the $z$-axis) a
   <img src="../assets/images/Invpyramid2d.png" width="275">
 </div>
 
+<!--
 So the self-similarity in this example can be expressed by
 
 $$
 f(\lambda x, \lambda y) = |\lambda x| + |\lambda y| = c \implies  |x| + |y| = \frac{c}{\lambda} = \frac{1}{\lambda} c  
 $$
 .
+
+-->
 
 # Self-similarity of curves
 
