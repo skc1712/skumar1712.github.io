@@ -30,7 +30,7 @@ L_c = \{ (x,y): |x|+|y|=c \}
 $$
 , 
 
-which are diamonds (squares rotated by 45 °). Now, looking down the $z$-axis, if we zoom in by a factor of 2, then we will be looking at the level curves of
+which are diamonds (squares rotated by 45°). Now, looking down the $z$-axis, if we zoom in by a factor of 2, then we will be looking at the level curves of
 
 $$ 
 (1/2) f(x, y)  = (1/2) c = (1/2) (|x|+|y|) = |x/2|+|y/2| = f(x/2, y/2) 
@@ -80,7 +80,7 @@ Another interesting and closed-form example is the logarithmic spiral, which has
 $$r(\theta)=r_0 e^{b\theta}$$
 ,
 
-where $r_0>$ is the initial radius, $b\ne0$ controls how tightly the spiral winds and $\theta$ is the polar angle. 
+where $r_0>0$ is the initial radius, $b\ne0$ controls how tightly the spiral winds and $\theta$ is the polar angle. 
 
 So if we scale or zoom the spiral by a factor $\lambda$, i.e., 
 
@@ -107,7 +107,7 @@ $$
 
 -->
 
-It turns out that when $\Delta \theta = \frac{\pi}{2}$, and $\lambda = \frac{1+\sqrt{5}}{2}$, the Golden ratio, then the corresponding spiral is  called the  Golden spiral. Voilà! That's the shape of a Romanescu broccoli!
+It turns out that when $\Delta \theta = \frac{\pi}{2}$, and $\lambda = \frac{1+\sqrt{5}}{2}$, the Golden ratio, then the corresponding spiral is  called the  Golden spiral. Voilà! That's the shape of a Romanesco broccoli!
 
 <!--
 So the self-similarity in this example can be expressed as
@@ -124,7 +124,7 @@ This means zooming the entire curve is equivalent to rotating it; the shape rema
   <img src="../assets/images/galaxylognasa.png" style="max-width: 300px; height: auto;">
   <img src="../assets/images/spiralzoom.gif" style="max-width: 240px; height: auto;" >  
 </div>
-Left: Messier 74. *Image credit: www.nasa.gov (Public Domain).* Right: *Golden spiral.*  
+Left: Messier 74. *Image credit: www.nasa.gov.* Right: *Golden spiral.*  
 
 <!-- ![spiral zoom](assets/images/spiralzoom.gif)
 ![Spiral Galaxy NGC 3147](assets/images/galaxynasa.jpg) -->
@@ -133,7 +133,7 @@ Left: Messier 74. *Image credit: www.nasa.gov (Public Domain).* Right: *Golden s
 
 ## Self-similarity of equations
 
-After seeing self-similarity in both functions and curves, it's natural to wonder whether these objects appear as solutions of differential equations. In fact, the answer is yes and in the case of a logarithmic spiral, it's a simple Ordinary Differential Equation (ODE),
+After seeing self-similarity in both functions and curves, it's natural to wonder whether these patterns appear as solutions of differential equations. In fact, the answer is yes, and in the case of a logarithmic spiral, it's a simple Ordinary Differential Equation (ODE),
 
 $$
 r^\prime = \frac{dr}{d\theta}=b r(\theta)
@@ -142,7 +142,7 @@ $$
 
 This equation can be derived by imposing that as we move along the curve $r(\theta)$, the tangent vector always makes a constant angle with the radial direction (the line from the origin to the point). 
 
-More generally, for Partial Differential Equations (PDEs), imposing a self-similar form often transforms the PDE into an ODE, which is often _less_ complicated to study. For example, the heat equation 
+More generally, for Partial Differential Equations (PDEs), imposing a self-similar form often transforms the PDE into an ODE. For example, the heat equation 
 
 $$
 u_t = u_{xx}
@@ -186,7 +186,7 @@ $$
 
 the fundamental solution of the heat equation. 
 
-Let's now consider a PDE whose solution is rather an arc-length parameterised curve, $\gamma$ 
+Let's now consider a PDE whose solution is not a scalar but an evolving arc-length parameterised curve, $\gamma$ satisfying
 
 $$
 \gamma_t = \kappa \mathbf{n}
@@ -195,16 +195,16 @@ $$
 
 where $\kappa$, is the curvature and $\mathbf{n}$, the normal vector. This equation is known as *Curve shortening flow (CSF)* and explains the evolution of a curve whose velocity vector has the tangential component equal to zero.
 
-Although using the two-dimensional Frenet frame, one can write $\gamma_t=\gamma_{ss}$, which might remind us of the heat equation, but let's not get mistaken, as the arc-length parameterisation here changes with time. However, just as with the heat equation, it is natural to ask whether the flow admits self-similar solutions.
+Although using the two-dimensional Frenet frame, one can write $\gamma_t=\gamma_{ss}$, this is not the heat equation, as the arc-length coordinate $s$ changes with time. However, just as with the heat equation, it is natural to ask whether the flow admits self-similar solutions.
 
-It turns out that CSF is invariant under rotations and scalings. This means we look for solutions of the form
+It turns out that CSF is invariant under rotations and scalings, so we look for solutions of the form
 
 $$
 \gamma(s, t) = \lambda(t) R_{\omega(t)} \Gamma(s)
 $$
 ,
 
-where $\lambda(t)$ controls the scaling, $R_{\omega(t)}$ is a rotation by angle $\omega(t)$, and $\gamma(s)$ is the fixed shape, we want to determine.
+where $\lambda(t)$ controls the scaling, $R_{\omega(t)}$ is a rotation by angle $\omega(t)$, and $\gamma(s)$ is the fixed shape we want to determine.
 
 Substituting the above ansatz in the CSF gives the ODE for $\Gamma$:
 
@@ -225,7 +225,7 @@ $$
 whose solution in the polar form is
 
 $$
-r(\theta) = r_0 e^{b\theta}, \quad \text{where} \quad b = \Re{(D)}/\Im{(D)}, \quad \text{and} \quad D = \sqrt{A+iB}
+r(\theta) = r_0 e^{b\theta}, \quad \text{where} \quad b = Re{(D)}/Im{(D)}, \quad \text{and} \quad D = \sqrt{A+iB}
 $$
 .
 
