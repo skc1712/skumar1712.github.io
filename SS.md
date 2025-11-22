@@ -156,7 +156,7 @@ x \rightarrow \lambda x, \quad t \rightarrow \lambda^2 t
 $$
 ;
 
-that is, if $u(x,t)$ solves the equations, then so does
+that is, if $u(x,t)$ solves the equations, then so does (under constant energy assumption)
 
 $$
 u_\lambda(x, t) = \lambda u(\lambda x, \lambda^2 t)
@@ -167,7 +167,7 @@ $$
 A natural self-similar form is given by
 
 $$
-u(x,t) = t^{-1/2} F\left(\frac{x}{\sqrt{t}}\right) = t^{-1/2} F(\xi)
+u(x,t) = t^{-1/2} u\left(\frac{x}{\sqrt{t}}, 1 \right) = t^{-1/2} F\left(\frac{x}{\sqrt{t}}\right) = t^{-1/2} F(\xi)
 $$
 ,
 
