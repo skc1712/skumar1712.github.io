@@ -7,7 +7,7 @@ permalink: /SS/
 
 
 # Introduction 
-When I think of self-similarity, the first thing that comes to my mind is Romanesco broccoli. The shape is indeed self-similar and mathematically closely related to a spiral. In simple words, self-similar means that no matter how much you zoom in, you will see the same shape. This thinking can then be applied not only to shapes (sets, functions), but also to equations. 
+When I think of self-similarity, the first thing that comes to my mind is Romanesco broccoli. The shape is indeed self-similar and mathematically closely related to a spiral. In simple words, self-similar means that no matter how much you zoom in, you will see the same shape. This thinking can then be applied not only to shapes (sets, functions), but also to equations. Let's see how!
 
 # Self-similarity of functions
 Formally, a function $f(x)$ or a set $S$ is self-similar if scaling the input by a factor $\lambda$ changes the output in a predictable, proportional way:
@@ -229,7 +229,8 @@ r(\theta) = r_0 e^{b\theta}, \quad \text{where} \quad b = \Re{(D)}/\Im{(D)}, \qu
 $$
 .
 
-That is, the logarithmic spiral, or our very Romanescu broccoli! 
+That is, the logarithmic spiral, or our very... 
+
 <div style="display: flex; gap: 15px;">
   <img src="../assets/images/romanescu.png" style="max-width: 300px; height: auto;">
 </div>
