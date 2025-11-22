@@ -193,5 +193,40 @@ $$
 $$
 ,
 
-where $\kappa$, is the curvature and $\mathbf{n}$, the normal vector. This equation is known as *Curve shortening flow* and explains the evolution of a curve whose velocity vector has the tangential component equal to zero. 
+where $\kappa$, is the curvature and $\mathbf{n}$, the normal vector. This equation is known as *Curve shortening flow (CSF)* and explains the evolution of a curve whose velocity vector has the tangential component equal to zero.
 
+Just as with the heat equation, it is natural to ask whether the flow admits self-similar solutions.
+
+It turns out that CSF is invariant under rotations and scalings. This means we look for solutions of the form
+
+$$
+\gamma(s, t) = \gamma(t) R_{\omega(t)} \Gamma(s)
+$$
+,
+
+where $\gamma(t)$ controls the scaling, $R_{\omega(t)}$ is a rotation by angle $\omega(t)$, and $\gamma(s)$ is the fixed shape, we want to determine.
+
+Substituting the above ansatz in the CSF gives the ODE for $\Gamma$:
+
+$$
+\Gamma^{\prime\prime} = A \Gamma + B J \Gamma
+$$
+,
+
+where $J\Gamma$ is a 90º rotation of $\Gamma$ and $A$, $B$ are constants depending on the rate of scaling and rotation. 
+
+By writing $\Gamma(s) = (x(s), y(s))$ and $z=x+iy$, the above ODE becomes
+
+$$
+z^{\prime\prime} = (A+iB) z
+$$
+,
+
+whose solution in the polar form is
+
+$$
+r(\theta) = r_0 e^{b\theta}, \quad b = \Re{\lambda}/\Im{\lambda}, \quad \lambda = \sqrt{A+iB}
+$$
+.
+
+That is, the logarithmic spiral!
