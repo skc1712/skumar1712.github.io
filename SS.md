@@ -229,4 +229,4 @@ r(\theta) = r_0 e^{b\theta}, \quad b = \Re{\lambda}/\Im{\lambda}, \quad \lambda 
 $$
 .
 
-That is, the logarithmic spiral!
+That is, the logarithmic spiral, or our very Romanescu broccoli! 
