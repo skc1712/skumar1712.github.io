@@ -33,7 +33,7 @@ $$
 which are diamonds (squares rotated by 45 °). Now, looking down the $z$-axis, if we zoom in by a factor of 2, then we will be looking at the level curves of
 
 $$ 
-c/2 = (1/2) (|x|+|y|) = (|x/2|+|y/2|) = f(x/2, y/2) = (1/2) f(x, y)  
+(1/2) c = (1/2) (|x|+|y|) = |x/2|+|y/2| = f(x/2, y/2) = (1/2) f(x, y)  
 $$ 
 ,
 which implies that 
