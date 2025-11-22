@@ -30,19 +30,19 @@ L_c = \{ (x,y): |x|+|y|=c \}
 $$
 , 
 
-which are diamonds (squares rotated by 45 °). Now, if we scale the variables by a factor of 2: 
+which are diamonds (squares rotated by 45 °). Now, looking down the $z$-axis, if we zoom in by a factor of 2, then we will be looking at the level curves of
 
 $$ 
-f(2x, 2y) = |2x|+|2y|=2c  
+c/2 = (1/2) (|x|+|y|) = (|x/2|+|y/2|) = f(x/2, y/2) = (1/2) f(x, y)  
 $$ 
 ,
 which implies that 
 
 $$
-L_{2c} = 2L_c
+L_{c/2} = (1/2) L_c
 $$
 .
-The level curves, diamonds, are exactly the shape, scaled by a factor of 2.
+The level curves, diamonds, are exactly the shape, scaled by a factor of 1/2.
 
 This means that if you view the pyramid from above (looking down the $z$-axis) and zoom in by a factor of 2, you will see the same diamond shape with half the side length. Moreover, this remains true for any zooming factor: no matter how much you zoom in or out, the level sets keep the same shape, differing only by scale. Thus, the top view of the pyramid is self-similar, just like in the figure. 
 
