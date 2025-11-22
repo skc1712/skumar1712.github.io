@@ -200,11 +200,11 @@ Although using the two-dimensional Frenet frame, one can write $\gamma_t=\gamma_
 It turns out that CSF is invariant under rotations and scalings. This means we look for solutions of the form
 
 $$
-\gamma(s, t) = \gamma(t) R_{\omega(t)} \Gamma(s)
+\gamma(s, t) = \lambda(t) R_{\omega(t)} \Gamma(s)
 $$
 ,
 
-where $\gamma(t)$ controls the scaling, $R_{\omega(t)}$ is a rotation by angle $\omega(t)$, and $\gamma(s)$ is the fixed shape, we want to determine.
+where $\lambda(t)$ controls the scaling, $R_{\omega(t)}$ is a rotation by angle $\omega(t)$, and $\gamma(s)$ is the fixed shape, we want to determine.
 
 Substituting the above ansatz in the CSF gives the ODE for $\Gamma$:
 
@@ -225,7 +225,7 @@ $$
 whose solution in the polar form is
 
 $$
-r(\theta) = r_0 e^{b\theta}, \quad \text{where} \quad b = \Re{(\lambda)}/\Im{(\lambda)}, \quad \text{and} \quad \lambda = \sqrt{A+iB}
+r(\theta) = r_0 e^{b\theta}, \quad \text{where} \quad b = \Re{(D)}/\Im{(D)}, \quad \text{and} \quad D = \sqrt{A+iB}
 $$
 .
 
